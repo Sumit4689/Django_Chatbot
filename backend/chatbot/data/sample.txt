@@ -1,0 +1,32 @@
+# Sample document for RAG Chatbot
+
+This is a sample document to help you get started with your RAG chatbot.
+
+## What is RAG?
+
+RAG stands for Retrieval-Augmented Generation. It's a technique that combines:
+- Information retrieval from a knowledge base
+- Language model generation capabilities
+
+## How it works
+
+1. Documents are loaded and split into chunks
+2. Chunks are converted to embeddings and stored in a vector database
+3. When you ask a question, relevant chunks are retrieved
+4. The LLM uses these chunks to generate an accurate answer
+
+## Example Topics
+
+You can add your own documents to the data folder:
+- Company policies
+- Product documentation
+- Technical guides
+- FAQ documents
+- Research papers
+
+## File Formats Supported
+
+- Text files (.txt)
+- PDF files (.pdf)
+
+Add your documents to this folder and run the ingest script to update the knowledge base!
